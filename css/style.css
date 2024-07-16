@@ -865,6 +865,86 @@ footer .footer3 ul li a{
 }
 /* end photo-gallery screen */
 
+/* start contact screen */
+.contact-screen .contact-text{
+    margin: 30px 0 0;
+    padding: 40px;
+    background-color: #f1f1f2;
+  }
+  .contact-screen .contact-text h6{
+    margin-bottom: 30px;
+  }
+  .contact-screen .contact-text p{
+    font-weight: 600;
+  }
+  .contact-screen .contact-text p a{
+    text-decoration: none;
+    color: #ff2020;
+  }
+  .contact-screen .contact-form {
+    margin-bottom: 50px;
+  }
+  .contact-screen .contact-form form  span.required{
+    color: #ff2020;
+  }
+  .contact-screen .contact-form form h6,
+  .contact-screen .contact-form form label{
+    font-weight: 600;
+  }
+  .contact-screen .contact-form form .row{
+    margin-top: 20px;
+  }
+  .contact-screen .contact-form form .form-control,
+  .contact-screen .contact-form form .form-select{
+    height: 40px;
+  }
+  .contact-screen .contact-form form .form-select{
+    margin-bottom: 0 !important;
+    color: #a1a1a3;
+    font-size: 15px;
+  }
+  .contact-screen .contact-form form ::placeholder {
+    color: #a1a1a3;
+    font-size: 15px;
+  }
+  .contact-screen .contact-form form textarea{
+    resize: none;
+  }
+  .contact-screen .contact-form form .security{
+    background-color: #fff;
+    border: var(--bs-border-width) solid #dee2e6;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    min-height: 135px;
+    padding: 10px 0;
+  }
+  .contact-screen .contact-form form .security .left-part .section1{
+    width: 75%;
+    background-color: #f1f1f2;
+    height: 55px;
+  }
+  .contact-screen .contact-form form .security .left-part small{
+    display: flex;
+    margin-top: 15px;
+    font-size: 13px;
+  }
+  .contact-screen .contact-form form .security .right-part input{
+    width: 75%;
+    height: 30px;
+  }
+  .contact-screen .contact-form form .security .right-part small{
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .contact-screen .contact-form form .btn-danger{
+    border-radius: 0;
+    background-color: #ff2020;
+    font-size: 14px;
+    color: #ffe9e9;
+  }
+  /* end contact screen */
+
 /* start media query */
 @media only screen and (min-width: 1400px) {
     .banner {
