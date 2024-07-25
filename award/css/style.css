@@ -22,7 +22,7 @@
     font-family: acuminFont;
     src: url(./../fonts/Acumin\ Pro\ Medium.otf);
 }
-.welcome h3 , .welcome h5{
+.welcome h3 , .welcome h5 , .welcome h2 , .welcome h4{
   font-family:bruumBoldFont;
 }
 .welcome p{
@@ -240,7 +240,7 @@ header .nav3 ul li:not(:last-child)::after {
     /* position: absolute;
     top: 50%;
     transform: translateY(-50%); */
-    margin-top: 25%;
+    margin-top: 12%;
 }
 .banner.bannerRight .banner-text{
     text-align: right;
